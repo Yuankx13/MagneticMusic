@@ -1,0 +1,12 @@
+load('./Leirvogur/WWW_mdplt00028400.mat');
+figure(1);
+subplot(211);
+plot(dataHori,'LineWidth',1);
+title('2018年8月23日-9月1日 磁场水平分量 1分钟数据','FontSize',18);
+xlabel('时间/min','FontSize',14);
+ylabel('磁感应强度/nT','FontSize',14);
+subplot(212);
+plot(dataVert,'LineWidth',1,'Color','red');
+title('2018年8月23日-9月1日 磁场竖直分量 1分钟数据','FontSize',18);
+xlabel('时间/min','FontSize',14);
+ylabel('磁感应强度/nT','FontSize',14);
