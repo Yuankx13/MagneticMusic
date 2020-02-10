@@ -11,7 +11,7 @@ The second one is:
 plotMag.m
 It is just a simple code to plot the data you just read, and see if anything goes well.
 
-The third on is:
+The third one is:
 singleWav.m
 It is the main code to generate wav file from the .mat data mentioned before.
 
